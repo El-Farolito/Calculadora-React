@@ -1,5 +1,6 @@
 import "./App.css";
 import { Boton } from "./componentes/boton";
+import {Borrar} from "./componentes/borrar"
 import { Pantalla } from "./componentes/pantalla";
 
 function App() {
@@ -72,6 +73,14 @@ function App() {
             <p>/</p>
           </Boton>
         </div>
+        <div className="fila">
+         <Borrar>
+          <p>Borrar</p>
+         </Borrar>
+        </div>
+
+  
+       
         
       </div>
     </div>

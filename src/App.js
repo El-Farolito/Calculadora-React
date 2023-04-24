@@ -1,5 +1,6 @@
 import "./App.css";
 import { Boton } from "./componentes/boton";
+import { Pantalla } from "./componentes/pantalla";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       />
 
       <div className="contenedor-calculadora">
+
+        <Pantalla input="asd"/>
         <div className="fila">
           <Boton>
             <p>1</p>
@@ -67,20 +70,7 @@ function App() {
             <p>/</p>
           </Boton>
         </div>
-        <div className="fila">
-          <Boton>
-            <p>1</p>
-          </Boton>
-          <Boton>
-            <p>+</p>
-          </Boton>
-          <Boton>
-            <p>=</p>
-          </Boton>
-          <Boton>
-            <p>=</p>
-          </Boton>
-        </div>
+        
       </div>
     </div>
   );

@@ -11,7 +11,7 @@ function App() {
 
       
 
-        <img src={require('./imagenes/logo_large.png')} className='logo-lautaropedroza' />
+        <img src={require('./imagenes/logo_large.png')} className='logo-lautaropedroza' alt='Lautaro Pedroza' />
 
         <div className='contenedor-calculadora'>
 

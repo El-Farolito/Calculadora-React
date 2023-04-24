@@ -1,6 +1,6 @@
 
 import './App.css';
-import logo from './imagenes/logo_large.png'
+
 
 
 
@@ -11,7 +11,7 @@ function App() {
 
       
 
-        <img src={logo} className='logo-lautaropedroza' />
+        <img src={require('./imagenes/logo_large.png')} className='logo-lautaropedroza' />
 
         <div className='contenedor-calculadora'>
 

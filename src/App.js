@@ -14,6 +14,8 @@ function App() {
       <div className="contenedor-calculadora">
 
         <Pantalla input="asd"/>
+
+        
         <div className="fila">
           <Boton>
             <p>1</p>

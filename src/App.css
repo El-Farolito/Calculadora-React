@@ -1,0 +1,77 @@
+.App{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(48, 36, 36);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url('./imagenes/fondo.avif');
+}
+
+.logo-lautaropedroza{
+    width: 80%;
+   padding: 5%;
+   border-radius: 10px;
+   box-shadow: 0 0 10px white;
+    background-color: white;
+    
+}
+
+.contenedor-calculadora{
+    width: 80%;
+    height: 60%;
+    padding: 5%;
+    background-color: rgba(255, 255, 255, 0.671);  
+ backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(12px);
+    margin-top: 5%;
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
